@@ -301,7 +301,7 @@ def banner():
        \\(_=_)//.    Telegram : 
         (:| |:).      Github   : https://t.me/shaba_EXPERT
          || ||.       Team     : shaba
-         () ().      Version  : V.3
+         () ().      Version  : V.6
          || ||
          || ||                           
  ╔╦══• •✠•❀ shaba ❀•✠ • •══╦╗
@@ -897,7 +897,7 @@ def crack(idf,pwv):
 	ua = random.choice(ugen)
 	#ua2 = random.choice(ugen2)
 	ses = requests.Session()
-	print("\r\u001b[37;1mr[MR.KUBRA] ["+str(loop)+"|"+str(len(id))+"] [\u001b[32;1m"+str(ok)+"\u001b[37;1m=\u001b[33;1m"+str(cp)+"\u001b[37;1m]",end="")
+	print("\r\u001b[37;1mr[shaba] ["+str(loop)+"|"+str(len(id))+"] [\u001b[32;1m"+str(ok)+"\u001b[37;1m=\u001b[33;1m"+str(cp)+"\u001b[37;1m]",end="")
 	#prog.update(des,description=f"[bold white][MR.KUBRA][bold white] [{loop}|{len(id)}]  [[bold green]{ok}[/]=[bold yellow]{cp}[/]]")
 	#prog.advance(des) 
 	#prog.advance(des) 
