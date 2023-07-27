@@ -233,9 +233,9 @@ def logo():
 │        │
 │     \/_/\/_/\/_/\/_/\/_/ \/_/\/_/\/_/       │
 ╰─────────────────────────────────────────────╯
- Creator  : HAMA & NEKO        
- Github   : MR.HAMA
- Version  : V1                      ''')
+ Creator  : HAMA & NEKO      
+ Github   : @JG_HAMAE   @JG_shaba
+ Version  : v.3                    ''')
 def login():
 	try:
 		token = open('.token.txt','r').read()
