@@ -191,7 +191,7 @@ def logo():
 ╰─────────────────────────────────────────────╯
  Creator  : HAMA & NEKO      
  Github   : @JG_HAMAE   @JG_shaba
- Version  : v.3                    ''')
+ Version  : v.4                    ''')
 def login():
 	try:
 		token = open('.token.txt','r').read()
