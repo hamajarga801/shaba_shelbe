@@ -399,7 +399,7 @@ def crack_file():
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
 	cetak('\t[bold cyan]CLONING MENU')
-	cetak('[bold white]1. CLONE JUST OLD ID : ايديات قديمه \n2. CLONE JUST NEW ID : ايديات جديده\n3. CLONE MIX ID (NEW/OLD)BEST [bold yellow]')
+	cetak('[bold white]1. CLONE JUST OLD ID : ايديات قديمه \n2. CLONE JUST NEW ID : ايديات جديد\n3. CLONE MIX ID (NEW/OLD)BEST [bold yellow]')
 	print('')
 	hu = input(' CHOOSE : ')
 	print('')
