@@ -702,6 +702,8 @@ def first():
 					pwv.append(frs+"1998")
 					pwv.append(frs+"1999")
 					pwv.append(frs+frs)
+
+			
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -728,6 +730,11 @@ def first():
 					pwv.append(frs+"1989")
 					pwv.append(frs+"1999")
 					pwv.append(frs+frs)
+					
+					
+
+
+			
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'mobile1' in method:
